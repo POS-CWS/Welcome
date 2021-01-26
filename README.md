@@ -14,7 +14,7 @@ It'd probably be more convenient for us if this section is moved until just afte
 ## Getting Started
 Tools on this page can be downloaded either by either cloning them with Git or by downloading them as a zip. The first method takes a bit more setup as you'll need to install Git, but it makes it very easy to update the tools. The second method is an easy way to access the smaller tools (such as the file management ones), but isn't recommended for any tools that are likely to be updated in the future (such as the AIS_Linker).
 
-## List of notable tools
+## List of Tools
 This section provides a brief overview of the tools that are provided on github.
 
 Most of our completed tools are publicly available, and can be downloaded without logging in. If you are part of our team and need access to any of the private tools, please contact Patrick or Gregory to get your github account linked to our team.
@@ -24,10 +24,10 @@ TODO
 
 It is recommended to use the image_copy_sort, time_fixer, and _________ tools *before* using the AIS_linker to process images.
 
-### image_copy_sort (private)
+### Image copy/sort (private)
 This tool copies images between locations, organizing them into daily folders as it does so.
 
-### Other tools (private)
+### Other Tools (private)
 This is a collection of small tools that don't fit into any other repository. More information on each can be found there. Currently, this list includes:
  * File counter: a PyQt program that lists the number of files in each folder. Useful in searching for anomalies in a repetitive file structure, such as when data is organized into daily folders, each of which should have a comparable amount of data files.
  * File compressor: 
@@ -35,11 +35,8 @@ This is a collection of small tools that don't fit into any other repository. Mo
  * Four_a_day: Specific to our standard image file structure, this tool copies 4 images at specific times each day to a new folder. This is useful when assessing weather conditions or camera status.
  * metadata copier: This tool supports one of our auto-detection tools by searching for duplicate images with metadata missing, then searching for an original image for each duplicate to mirror the metadata over from.
 
-### AIS Utilities (private)
+### Other Scripts (private)
 This is a collection of scripts that have been used to process AIS data in the past. Many of them are ad-hoc and not intended for re-use, but they may be useful as references for future AIS processing scripts.
-
-### Other scripts (private)
-This is a collection of unrelated scripts that have been used in the past. These are likely to crash if run directly, but are provided as a reference if similar tasks are needed to be done again.
 
 ## Dependencies
 Most of these tools are written in Python 3. Some require additional libraries, the main two of which are:
