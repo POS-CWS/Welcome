@@ -29,10 +29,9 @@ This tool copies images between locations, organizing them into daily folders as
 
 ### Other Tools (private)
 This is a collection of small tools that don't fit into any other repository. More information on each can be found there. Currently, this list includes:
- * File counter: a PyQt program that lists the number of files in each folder. Useful in searching for anomalies in a repetitive file structure, such as when data is organized into daily folders, each of which should have a comparable amount of data files.
- * File compressor: 
- * File list/copy tool:
- * Four_a_day: Specific to our standard image file structure, this tool copies 4 images at specific times each day to a new folder. This is useful when assessing weather conditions or camera status.
+ * file counter: a PyQt program that lists the number of files in each folder. Useful in searching for anomalies in a repetitive file structure, such as when data is organized into daily folders, each of which should have a comparable amount of data files.
+ * file list/copy tool:
+ * image_sampler: Specific to our standard image file structure, this tool copies 4 images at specific times each day to a new folder. This is useful when assessing weather conditions or camera status.
  * metadata copier: This tool supports one of our auto-detection tools by searching for duplicate images with metadata missing, then searching for an original image for each duplicate to mirror the metadata over from.
 
 ### Other Scripts (private)
@@ -45,4 +44,4 @@ Most of these tools are written in Python 3. Some require additional libraries, 
 2. Pillow is used to get image metadata in a number of the correction tools. It can also be installed using pip: "pip install Pillow"
 
 ## Licencing information
-All of these projects are licenced under the GNU GPLv3 copy-left licence. Details on the permissions of this licence can be found online.
+All of these projects are licenced under the GNU GPLv3 copy-left licence. Details on the permissions of this licence can be found at <https://www.gnu.org/licenses/>.
