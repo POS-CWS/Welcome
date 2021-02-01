@@ -27,14 +27,14 @@ It is recommended to use the image_copy_sort, time_fixer, and _________ tools *b
 ### Image copy/sort (private)
 This tool copies images between locations, organizing them into daily folders as it does so.
 
-### Other Tools (private)
+### Misc Tools (private)
 This is a collection of small tools that don't fit into any other repository. More information on each can be found there. Currently, this list includes:
  * file counter: a PyQt program that lists the number of files in each folder. Useful in searching for anomalies in a repetitive file structure, such as when data is organized into daily folders, each of which should have a comparable amount of data files.
  * file list/copy tool:
  * image sampler: Specific to our standard image file structure, this tool copies 4 images at specific times each day to a new folder. This is useful when assessing weather conditions or camera status.
  * metadata copier: This tool supports one of our auto-detection tools by searching for duplicate images with metadata missing, then searching for an original image for each duplicate to mirror the metadata over from.
 
-### Other Scripts (private)
+### Misc Scripts (private)
 This is a collection of scripts that have been used in the past for a variety of purposes, such as processing AIS data. Many of them are ad-hoc and not intended for re-use, but they may be useful as references for future processing scripts.
 
 ## Dependencies
