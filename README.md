@@ -20,9 +20,7 @@ This section provides a brief overview of the tools that are provided on github.
 Most of our completed tools are publicly available, and can be downloaded without logging in. If you are part of our team and need access to any of the private tools, please contact Patrick or Gregory to get your github account linked to our team.
 
 ### AIS_Linker (private)
-TODO
-
-It is recommended to use the image_copy_sort, time_fixer, and _________ tools *before* using the AIS_linker to process images.
+This tool overlays AIS information on images taken looking out over water, and provides ways to mark and record vessel traffic.
 
 ### Image copy/sort (private)
 This tool copies images between locations, organizing them into daily folders as it does so.
