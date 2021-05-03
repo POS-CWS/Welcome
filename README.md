@@ -1,7 +1,7 @@
 # Welcome
-Welcome to the CORAL-CWS GitHub page. This is the home for a number of tools that we use. General notes about each tool can be found in this file, and more detailed ones can be found in the corresponding repository.
+Welcome to the Photographic Observation Study (POS)- Canadian Wildlife Service (CWS) GitHub page. This is the home for a number of tools that were developed for the POS. General notes about each tool are found in this file, and more detailed ones are available in the corresponding repository.
 
-## About CORAL-CWS
+## About POS-CWS
 
 TODO Norma: this is a good place to put a public-facing blurb on the team as a whole.
 
