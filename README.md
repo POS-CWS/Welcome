@@ -5,7 +5,7 @@ Welcome to the CORAL-CWS GitHub page. This is the home for a number of tools tha
 
 TODO Norma: this is a good place to put a public-facing blurb on the team as a whole.
 
-Link to website: https://www.poscanada.org/ ?
+Link to website: https://www.poscanada.org/
 
 Logos are also a good idea.
 
