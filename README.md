@@ -3,16 +3,10 @@ Welcome to the Photographic Observation Study (POS)- Canadian Wildlife Service (
 
 ## About POS-CWS
 
-TODO Norma: this is a good place to put a public-facing blurb on the team as a whole.
-
-Link to website: https://www.poscanada.org/
-
-Logos are also a good idea.
-
-It'd probably be more convenient for us if this section is moved until just after the "Dependencies" section, but as this is eventually intended to be public facing, I think keeping this brief but at the top is best. You could still have sections further down such as "acknowledgements" or "research details"
+POS-CWS is a team of researchers working to improve marine traffic monitoring, especially as it relates to marine mammal behaviour. For more information, see https://www.poscanada.org/
 
 ## Getting Started
-Tools on this page can be downloaded either by either cloning them with Git or by downloading them as a zip. The first method takes a bit more setup as you'll need to install Git, but it makes it very easy to update the tools. The second method is an easy way to access the smaller tools (such as the file management ones), but isn't recommended for any tools that are likely to be updated in the future (such as the AIS_Linker).
+Tools on this page can be downloaded either by either cloning them with Git or by downloading them as a zip. The first method takes a bit more setup as you'll need to install Git, but it makes it very easy to update the tools. The second method is an easy way to access the smaller tools (such as the file management ones), but it does mean that tools must be redownloaded if they are updated in the future.
 
 ## List of Tools
 This section provides a brief overview of the tools that are provided on github.
@@ -22,7 +16,7 @@ Most of our completed tools are publicly available, and can be downloaded withou
 ### AIS_Linker (private)
 This tool overlays AIS information on images taken looking out over water, and provides ways to mark and record vessel traffic.
 
-### Image copy/sort (private)
+### Image copy/sort (public)
 This tool copies images between locations, organizing them into daily folders as it does so.
 
 ### Misc Tools (private)
@@ -41,5 +35,5 @@ Most of these tools are written in Python 3. Some require additional libraries, 
     - this package is licenced under the GNU General Public Licence. For more details, see the licencing information below.
 2. Pillow is used to get image metadata in a number of the correction tools. It can also be installed using pip: "pip install Pillow"
 
-## Licencing information
+## Licencing
 All of these projects are licenced under the GNU GPLv3 copy-left licence. Details on the permissions of this licence can be found at <https://www.gnu.org/licenses/>.
